@@ -1,0 +1,32 @@
+{
+  "name": "thestatic-dcl-standard",
+  "version": "1.0.0",
+  "description": "STANDARD tier template - video screen, Guide UI, and Chat with @thestatic-tv/dcl-sdk",
+  "scripts": {
+    "start": "sdk-commands start",
+    "build": "sdk-commands build",
+    "deploy": "sdk-commands deploy",
+    "deploy:test": "sdk-commands deploy --target-content https://worlds-content-server.decentraland.org"
+  },
+  "dependencies": {
+    "@dcl/js-runtime": "7.17.0",
+    "@dcl/sdk": "7.17.0",
+    "@thestatic-tv/dcl-sdk": "^2.5.17"
+  },
+  "devDependencies": {
+    "@dcl/sdk-commands": "7.17.0"
+  },
+  "overrides": {
+    "@dcl/asset-packs": "2.9.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}

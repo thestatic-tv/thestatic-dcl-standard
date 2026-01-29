@@ -1,0 +1,31 @@
+{
+  "runtimeVersion": "7",
+  "display": {
+    "title": "TheStatic.tv STANDARD Template",
+    "description": "STANDARD tier template with video screen, Guide UI, and Chat. Upgrade to PRO for Admin Panel.",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "TheStatic.tv",
+    "email": "contact@thestatic.tv"
+  },
+  "main": "bin/index.js",
+  "tags": ["thestatic", "standard-tier", "streaming", "video", "guide", "chat"],
+  "scene": {
+    "parcels": ["0,0"],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn",
+      "default": true,
+      "position": { "x": 8, "y": 0, "z": 8 },
+      "cameraTarget": { "x": 8, "y": 1, "z": 4 }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {}
+}
