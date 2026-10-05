@@ -11,8 +11,8 @@ The equivalent deployed production scene is `thestatic-hq` (or `thestatic-popup`
 ## What STANDARD tier provides
 
 - Video screen with channel selection
-- Guide UI (browse live/scheduled channels - G key)
-- Chat UI (real-time messages - C key)
+- Guide UI (browse live/scheduled channels - on-screen GUIDE button)
+- Chat UI (real-time messages - on-screen CHAT button)
 - Heartbeat tracking (watch time metrics)
 - Visitor analytics
 
@@ -45,7 +45,7 @@ Get a key at [thestatic.tv/dashboard](https://thestatic.tv/dashboard).
 |------|-----------|---------|
 | Free | `dcls_*` | Visitor tracking only |
 | **Standard** | `dcls_*` | Video + Guide + Chat - **this template** |
-| Pro | `dclk_*` | + Admin Panel |
+| Pro | `dcls_*` | + Admin Panel |
 
 See `thestatic-dcl-free` and `thestatic-dcl-pro` for the other tiers.
 
