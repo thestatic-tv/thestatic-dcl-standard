@@ -143,7 +143,7 @@ Transform.create(dashboardButtonText, { position: Vector3.create(6, 1.5, 1.25), 
 TextShape.create(dashboardButtonText, { text: 'GET API KEY', fontSize: 1.5, textColor: COLORS.darkPanel, width: 10 })
 pointerEventsSystem.onPointerDown(
   { entity: dashboardButton, opts: { button: InputAction.IA_POINTER, hoverText: 'Get your API key' } },
-  () => { openExternalUrl({ url: 'https://thestatic.tv/admin/login' }) }
+  () => { openExternalUrl({ url: 'https://thestatic.tv/login' }) }
 )
 
 const githubButton = engine.addEntity()

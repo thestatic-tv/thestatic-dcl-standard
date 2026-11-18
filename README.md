@@ -28,7 +28,7 @@ The scene works immediately for testing with demo key!
 
 ## Use Your Own Key
 
-1. Get a key at [thestatic.tv/admin/login](https://thestatic.tv/admin/login)
+1. Get a key at [thestatic.tv/login](https://thestatic.tv/login)
 2. Open `src/index.ts` and replace `dcls_YOUR_API_KEY_HERE` with your key
 3. Delete `DELETE_THIS_DEMO.ts` (it's just for the demo)
 
@@ -92,6 +92,6 @@ thestatic-dcl-standard/
 
 ## Resources
 
-- [Get API Key](https://thestatic.tv/admin/login)
+- [Get API Key](https://thestatic.tv/login)
 - [SDK on npm](https://www.npmjs.com/package/@thestatic-tv/dcl-sdk)
 - [thestatic.tv](https://thestatic.tv)
